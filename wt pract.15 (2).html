@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Click the cup to fill it with coffee</h1>
+<img id="myImage" onclick="changeImage()" src="    C:\Users\lenovo 2020\OneDrive\Desktop\filledcup.jpg" width="500" height="450">
+<h1> On-mousove and mouse-out event </h1>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://th.bing.com/th/id/OIP.GD9NFCuOwwDX3wsu8x7OhwHaJ3?pid=ImgDet&rs=1 " alt="Softy" width="500" height="450">
+ 
+
+<script>
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("fillercup")) {
+    image.src = "    C:\Users\lenovo 2020\OneDrive\Desktop\filledcup.jpg";
+  } else {
+    image.src = "   C:\Users\lenovo 2020\OneDrive\Desktop\filledcup.jpg";
+  }
+}
+function bigImg(x) {
+  x.style.height = "500px";
+  x.style.width = "500px";
+}
+
+function normalImg(x) {
+  x.style.height = "300px";
+  x.style.width = "300px";
+}
+</script>
+
+</body>
+</html>

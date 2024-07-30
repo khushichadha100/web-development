@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Rule.css"?>
+<books>
+ <heading>BOOKS STORE</heading>
+ <book>
+ <title>Title -: The good earth</title>
+ <author>Author -: Pearl S. Buck</author>
+ <format>format -: paperback</format>
+ <genre>genre -: classic</genre>
+ <price> Price -: 750</price>
+ </book>
+ <book>
+ <title>Title -: Secret society</title>
+ <author>Author -: Tom Dolby</author>
+ <format>format -: Paperback</format>
+ <genre>genre -: suspense</genre>
+ <price>Price -: 900</price>
+ </book>
+ <book>
+ <title>Title -: Firespell</title>
+ <author>Author -: Chloe Neill</author>
+ <format>format -: hardcover</format>
+ <genre>genre -: suspense</genre>
+ <price>Price -: 700</price>
+ </book>
+ <book>
+ <title>Title -: Black boy</title>
+ <author>Author -: Richard Wright</author>
+ <format>format-: paperback</format>
+ <genre>genre -: classic</genre>
+ <price>Price -: 600</price>
+ </book>
+ <book>
+ <title>Title -: New moon</title>
+ <author>Author -: Stephenie Meyer</author>
+ <format>format -: hardcover</format>
+ <genre>genre -: drama</genre>
+ <price>Price -: 650</price>
+ </book>
+</books>
